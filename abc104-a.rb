@@ -1,4 +1,8 @@
-a,b = gets.split(" ").map(&:to_i)
-c = (a + b) / 2
-d = (a - b) / 2
-puts("#{c} #{d}")
+R=gets.to_i
+if R<1200
+puts "ABC"
+elsif R>=2800
+puts "AGC"
+else
+puts "ARC"
+end
