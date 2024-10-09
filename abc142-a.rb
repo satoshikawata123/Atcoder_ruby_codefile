@@ -1,6 +1,6 @@
-N=gets.to_i
+N=gets.to_f
 if N%2==0
-puts 2/N
+puts 0.5
 else
-puts 2/(N+1)
+puts ((N-1)/2+1)/N
 end
