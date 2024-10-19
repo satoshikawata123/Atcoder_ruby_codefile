@@ -32,3 +32,5 @@ if count1 != -1 && count2 != -1
 else
   puts "No '*' found in the matrix."
 end
+
+#git仕様の変更確認
